@@ -19,8 +19,14 @@ import Test from "../components/Test/Test.vue";
 import Hasilbaik from "../components/Test/Hasilbaik.vue";
 import Hasiljelek from "../components/Test/Hasiljelek.vue";
 import Berita from "../components/Berita.vue";
+import Meditation_v2 from "../components/Home_Pages/Meditation_v2.vue";
 
 const routes = [
+  {
+    name: "Meditation_v2",
+    path: "/Meditation_v2",
+    component: Meditation_v2,
+  },
   {
     name: "Berita",
     path: "/Berita",
