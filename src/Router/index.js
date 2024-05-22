@@ -94,7 +94,7 @@ const routes = [
   },
   {
     name: "Login",
-    path: "/Login",
+    path: "/",
     component: Login,
   },
   {
