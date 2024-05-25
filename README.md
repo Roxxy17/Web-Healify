@@ -1,5 +1,6 @@
-<a href="https://ibb.co.com/Tg1n6SQ"><img src="https://i.ibb.co.com/d5t3FqN/Header-Healify.png" alt="Header-Healify" border="0"></a>
-
+<p align="center">
+<a href="https://ibb.co.com/kXJhrTM"><img src="https://i.ibb.co.com/1TM9pNb/Screenshot-2024-05-25-193100.png" alt="Healify" border="0"></a>
+</p>
 <h1 align="center" style="font-weight: bold;">Healify</h1>
 
 <p align="center">
