@@ -1,12 +1,16 @@
 <p align="center">
 <img src="https://github.com/Roxxy17/Web-Healify/assets/125856192/afe38047-adc8-4a64-8df7-46871928b871" alt="Healify Team" width="750">
 </p>
+
 <h1 align="center" style="font-weight: bold;">Healify</h1>
 
 <p align="center">
 <a href="#Languages">Languages</a>
+|
 <a href="#started">Getting Started</a>
+|
 <a href="#Team">Team</a>
+|
 <a href="#contribute">Contribute</a>
 </p>
 
