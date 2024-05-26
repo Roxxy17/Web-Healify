@@ -40,3 +40,11 @@ Before run this project make sure you have installed all the prerequisites
 Here you list all prerequisites necessary for running the project :
 - [Node.js](https://nodejs.org/en/) (LTS version recommended)
 - [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+
+<h3>Cloning</h3>
+
+How to clone the project
+
+```bash
+git clone https://github.com/ZumaAkbarID/SiPPOB SiPPOB
+```
