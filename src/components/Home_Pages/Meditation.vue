@@ -12,7 +12,7 @@
   </div>
 
   <div class="font-[inter] flex flex-col md:flex-row w-auto items-center mt-16">
-    <div class="md:ml-20 md:mr-72 text-center md:text-left mx-4 md:mx-0 space-y-6">
+    <div class="md:ml-20 md:mr-60 text-center md:text-left mx-4 md:mx-0 space-y-6">
       <h1 class="text-3xl text-[#1D5D9B] font-bold">
         Mengapa Pilih Meditasi <br class="hidden md:inline" />
         Bersama Healify
