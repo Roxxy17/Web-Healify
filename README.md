@@ -55,9 +55,9 @@ npm install
 npm run dev
 ```
 
-<h2 id="Team">🏆 Team</h2>
+<h2 id="Team">🏆 Healify Team</h2>
 
-## 🤝 Healify Team
+
 
 <table>
   <tr>
