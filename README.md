@@ -1,4 +1,4 @@
-# Header
+# Healify
 <p align="center">
 <img src="https://github.com/Roxxy17/Web-Healify/assets/125856192/afe38047-adc8-4a64-8df7-46871928b871" alt="Healify Team" width="750">
 </p>
@@ -30,3 +30,13 @@ Back-End :
 - Laravel
 - SQL Database
 - API
+
+<h2 id="started">🚀 Getting started</h2>
+
+Before run this project make sure you have installed all the prerequisites
+
+<h3>Prerequisites</h3>
+
+Here you list all prerequisites necessary for running the project :
+- [Node.js](https://nodejs.org/en/) (LTS version recommended)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
