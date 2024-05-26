@@ -46,5 +46,13 @@ Here you list all prerequisites necessary for running the project :
 How to clone the project
 
 ```bash
-git clone https://github.com/ZumaAkbarID/SiPPOB SiPPOB
+git clone https://github.com/Roxxy17/Web-Healify.git
 ```
+<h3>Starting</h3>
+
+To start the project!
+
+...bash
+npm install
+npm run dev
+...
