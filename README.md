@@ -52,7 +52,7 @@ git clone https://github.com/Roxxy17/Web-Healify.git
 
 To start the project!
 
-...bash
+```bash
 npm install
 npm run dev
-...
+```
