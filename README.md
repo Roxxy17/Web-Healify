@@ -1,4 +1,4 @@
-# Healify
+# Healify ;
 <p align="center">
 <img src="https://github.com/Roxxy17/Web-Healify/assets/125856192/afe38047-adc8-4a64-8df7-46871928b871" alt="Healify Team" width="750">
 </p>
