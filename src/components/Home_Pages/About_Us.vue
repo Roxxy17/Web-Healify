@@ -1,5 +1,5 @@
 <template>
-<div class="container mx-auto px-4 py-8">
+<div class="container mx-auto px-4 py-12">
   <div class="flex flex-col lg:flex-row justify-center items-center lg:space-x-32 mb-20 space-y-10 lg:space-y-0">
     <img class="h-auto w-3/4 lg:w-96 mx-auto" src="D:\My Project\Healify\src\assets\About_us\about.png" alt="Logo Titik Koma" />
     <div class="space-y-12 text-center lg:text-left">
