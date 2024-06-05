@@ -68,14 +68,35 @@ npm run dev
       <a href="https://github.com/Roxxy17">
         <img src="https://avatars.githubusercontent.com/u/125856192?v=4" width="100px;" style="border-radius:50%;" alt="Zuma Akbar ID Profile Picture"/><br>
         <sub><b>Kalila Atha A</b></sub><br><br>
-        <img src="https://img.shields.io/badge/Role-Full_Stack-blue" alt="Role: designer"/><br>
+        <img src="https://img.shields.io/badge/Role-Full_Stack-blue" alt="Role: FullStack"/><br>
       </a>
     </td>
     <td align="center">
       <a href="https://github.com/musarofahasofia">
         <img src="https://avatars.githubusercontent.com/u/127701409?v=4" width="100px;" style="border-radius:50%;" alt="Musarofah Asofia Profile Picture"/><br>
         <sub><b>Musarofah Asofia</b></sub><br><br>
-        <img src="https://img.shields.io/badge/Role-Full_Stack-red" alt="Role: UI/UX "/><br>
+        <img src="https://img.shields.io/badge/Role-UI/UX_Designer-yellow" alt="Role: UI/UX Designer"/>
+      </a>
+    </td>
+       <td align="center">
+      <a href="https://github.com/Ahyifauziaturohmah">
+        <img src="https://avatars.githubusercontent.com/u/128061646?v=4" width="100px;" style="border-radius:50%;" alt="Ahyi Fauziaturohmah"/><br>
+        <sub><b>Ahyi Fauzia</b></sub><br><br>
+        <img src="https://img.shields.io/badge/Role-Back_End-red" alt="Role: Back End"/>
+      </a>
+    </td>
+       <td align="center">
+      <a href="https://github.com/Rifqihamzah">
+        <img src="https://avatars.githubusercontent.com/u/128115024?v=4" width="100px;" style="border-radius:50%;" alt="Rifqi Hamzah"/><br>
+        <sub><b>M Rifqi Hamzah</b></sub><br><br>
+        <img src="https://img.shields.io/badge/Role-UI/UX_Designer-orange" alt="Role: UI/UX Designer"/>
+      </a>
+    </td>
+       <td align="center">
+      <a href="https://github.com/Ikhwan-Nurramadhan">
+        <img src="https://avatars.githubusercontent.com/u/128067248?v=4" width="100px;" style="border-radius:50%;" alt="Ikhwan Ireng"/><br>
+        <sub><b>Ikhwan Nurramadhan</b></sub><br><br>
+        <img src="https://img.shields.io/badge/Role-Full_Stack-pink" alt="Role: FullStack"/><br>
       </a>
     </td>
  </tr>
