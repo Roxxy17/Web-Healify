@@ -68,14 +68,14 @@ npm run dev
       <a href="https://github.com/Roxxy17">
         <img src="https://avatars.githubusercontent.com/u/125856192?v=4" width="100px;" style="border-radius:50%;" alt="Zuma Akbar ID Profile Picture"/><br>
         <sub><b>Kalila Atha A</b></sub><br><br>
-        <img src="https://img.shields.io/badge/Role-Full_Stack-blue" alt="Role: Full Stack"/><br>
+        <img src="https://img.shields.io/badge/Role-Full_Stack-blue" alt="Role: designer"/><br>
       </a>
     </td>
     <td align="center">
       <a href="https://github.com/musarofahasofia">
         <img src="https://avatars.githubusercontent.com/u/127701409?v=4" width="100px;" style="border-radius:50%;" alt="Musarofah Asofia Profile Picture"/><br>
         <sub><b>Musarofah Asofia</b></sub><br><br>
-        <img src="https://img.shields.io/badge/Role-Full_Stack-red" alt="Role: UI/UX Designer"/><br>
+        <img src="https://img.shields.io/badge/Role-Full_Stack-red" alt="Role: UI/UX "/><br>
       </a>
     </td>
  </tr>
