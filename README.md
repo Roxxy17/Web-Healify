@@ -71,9 +71,7 @@ npm run dev
         <img src="https://img.shields.io/badge/Role-Full_Stack-blue" alt="Role: Full Stack"/><br>
       </a>
     </td>
-  </tr>
-
-   <tr>
+    
     <td align="center">
       <a href="https://github.com/musarofahasofia">
         <img src="https://avatars.githubusercontent.com/u/127701409?v=4" width="100px;" style="border-radius:50%;" alt="Musarofah Asofia Profile Picture"/><br>
@@ -81,5 +79,5 @@ npm run dev
         <img src="https://img.shields.io/badge/Role-Full_Stack-red" alt="Role: UI/UX Designer"/><br>
       </a>
     </td>
-  </tr>
+ </tr>
 </table>
