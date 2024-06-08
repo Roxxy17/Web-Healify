@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col md:flex-row h-screen mb-60">
+  <div class="flex flex-col md:flex-row h-screen">
     <div
       class="md:w-1/2 bg-white p-8 rounded-lg flex justify-center items-center"
     >
