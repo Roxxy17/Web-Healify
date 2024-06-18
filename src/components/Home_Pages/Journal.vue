@@ -9,7 +9,7 @@
         <!-- Gembira -->
         <div class="mood-option flex flex-col items-center">
           <img
-            src="D:\My Project\Healify\src\assets\Jurnal\gembira.png"
+            src="../../assets/Jurnal/gembira.png"
             alt="Gembira"
             class="w-10 h-10"
           />
@@ -18,7 +18,7 @@
         <!-- Tenang -->
         <div class="mood-option flex flex-col items-center">
           <img
-            src="D:\My Project\Healify\src\assets\Jurnal\tenang.png"
+            src="../../assets/Jurnal/tenang.png"
             alt="Tenang"
             class="w-10 h-10"
           />
@@ -27,7 +27,7 @@
         <!-- Sedih -->
         <div class="mood-option flex flex-col items-center">
           <img
-            src="D:\My Project\Healify\src\assets\Jurnal\sedih.png"
+            src="../../assets/Jurnal/sedih.png"
             alt="Sedih"
             class="w-10 h-10"
           />
@@ -36,7 +36,7 @@
         <!-- Marah -->
         <div class="mood-option flex flex-col items-center">
           <img
-            src="D:\My Project\Healify\src\assets\Jurnal\marah.png"
+            src="../../assets/Jurnal/marah.png"
             alt="Marah"
             class="w-10 h-10"
           />
@@ -45,7 +45,7 @@
         <!-- Lelah -->
         <div class="mood-option flex flex-col items-center">
           <img
-            src="D:\My Project\Healify\src\assets\Jurnal\lelah.png"
+            src="../../assets/Jurnal/lelah.png"
             alt="Lelah"
             class="w-10 h-10"
           />
@@ -53,7 +53,7 @@
         </div>
         <div class="mood-option flex flex-col items-center">
           <img
-            src="D:\My Project\Healify\src\assets\Jurnal\biasa.png"
+            src="../../assets/Jurnal/biasa.png"
             alt="Lelah"
             class="w-10 h-10"
           />
@@ -69,7 +69,7 @@
       >
         <div class="rounded-lg p-4 mr-4 md:mr-0">
           <img
-            src="D:\My Project\Healify\src\assets\Jurnal\riwayat.png"
+            src="../../assets/Jurnal/riwayat.png"
             alt="Riwayat Jurnal"
             class="mr-0 md:mr-16 ml-0 md:ml-16 w-14 md:w-16"
           />
@@ -105,7 +105,7 @@
           </div>
           <div class="">
             <img
-              src="D:\My Project\Healify\src\assets\Jurnal\book.png"
+              src="../../assets/Jurnal/book.png"
               alt="book"
               class="w-16 mr-4"
             />
@@ -123,7 +123,7 @@
         class="topic-option flex items-center mb-16 mt-8 border-2 border-[#75C2F6] rounded-xl p-8"
       >
         <img
-          src="D:\My Project\Healify\src\assets\Jurnal\1.png"
+          src="../../assets/Jurnal/1.png"
           alt="Kenali Diri Lebih Baik"
           class="mr-4 w-28 h-auto md:w-auto md:h-auto"
         />
@@ -137,7 +137,7 @@
         class="topic-option flex items-center mb-16 border-2 border-[#75C2F6] rounded-xl p-8"
       >
         <img
-          src="D:\My Project\Healify\src\assets\Jurnal\2.png"
+          src="../../assets/Jurnal/2.png"
           alt="Menjalin Relasi"
           class="mr-4 w-28 h-auto md:w-auto md:h-auto"
         />
@@ -153,7 +153,7 @@
         class="topic-option flex items-center mb-16 border-2 border-[#75C2F6] rounded-xl p-8"
       >
         <img
-          src="D:\My Project\Healify\src\assets\Jurnal\3.png"
+          src="../../assets/Jurnal/3.png"
           alt="Ceritakan Keseharian"
           class="mr-4 w-28 h-auto md:w-auto md:h-auto"
         />
@@ -170,7 +170,7 @@
         class="topic-option flex items-center mb-16 border-2 border-[#75C2F6] rounded-xl p-8"
       >
         <img
-          src="D:\My Project\Healify\src\assets\Jurnal\4.png"
+          src="../../assets/Jurnal/4.png"
           alt="Tinggkatkan Potensi Diri"
           class="mmr-4 w-28 h-auto md:w-auto md:h-auto"
         />
@@ -186,7 +186,7 @@
         class="topic-option flex items-center mb-16 border-2 border-[#75C2F6] rounded-xl p-8"
       >
         <img
-          src="D:\My Project\Healify\src\assets\Jurnal\5.png"
+          src="../../assets/Jurnal/5.png"
           alt="Membangun Keberanian"
           class="mmr-4 w-28 h-auto md:w-auto md:h-auto"
         />

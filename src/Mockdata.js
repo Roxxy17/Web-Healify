@@ -1,6 +1,6 @@
 export const data = [
-    {
-        id : 1,
-        image : ''
-    }
-]
+  {
+    id: 1,
+    image: "",
+  },
+];

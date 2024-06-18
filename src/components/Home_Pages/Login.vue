@@ -78,7 +78,7 @@
             style="background-color: #ffffff"
           >
             <img
-              src="D:\My Project\Healify\src\assets\google.png"
+              src="../../assets/logReg/google.png"
               alt="Logo Google"
               class="h-6 w-6 inline-block mr-2"
             />

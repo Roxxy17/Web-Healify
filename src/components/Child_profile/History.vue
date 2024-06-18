@@ -44,7 +44,7 @@
       </div>
     </form>
 
-    <section class="flex flex-col  md:flex-row mt-8 ml-4">
+    <section class="flex flex-col md:flex-row mt-8 ml-4">
       <img
         src="D:\My Project\Healify\src\assets\Hourglass.png"
         alt="Hourglass"

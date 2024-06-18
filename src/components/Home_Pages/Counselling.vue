@@ -40,7 +40,7 @@
         <div class="flex justify-center items-center">
           <!-- Untuk menambahkan gambar yang dapat di-slide, Anda dapat menggunakan kodingan HTML dan JavaScript yang lebih kompleks seperti carousel atau slider. Di sini, saya hanya menambahkan gambar placeholder untuk contoh saja. -->
           <img
-            src="D:\My Project\Healify\src\assets\Konsul\promo1.png"
+            src="../../assets/Konsul/promo1.png"
             alt="Gambar Slide"
             class="rounded-lg shadow-md w-[1000px] h-auto"
           />

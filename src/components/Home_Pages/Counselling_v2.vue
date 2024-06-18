@@ -81,7 +81,7 @@
                 class="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out relative flex items-center justify-center"
               >
                 <img
-                  src="D:\My Project\Healify\src\assets\psikolog 1.png"
+                  src="../../assets/Konsul/psikolog 1.png"
                   alt="psikolog 1"
                   class=""
                 />
@@ -98,8 +98,8 @@
                 class="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out relative flex items-center justify-center"
               >
                 <img
-                  src="D:\My Project\Healify\src\assets\wokwok.jpg"
-                  alt="psikolog 1"
+                  src="../../assets/Konsul/wokwok.jpg"
+                  alt="platypus"
                   class=""
                 />
                 <div
@@ -114,8 +114,8 @@
                 class="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out relative flex items-center justify-center"
               >
                 <img
-                  src="D:\My Project\Healify\src\assets\psikolog 2.png"
-                  alt="psikolog 1"
+                  src="../../assets/Konsul/psikolog 2.png"
+                  alt="psikolog 2"
                   class=""
                 />
                 <div
@@ -130,14 +130,14 @@
                 class="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out relative flex items-center justify-center"
               >
                 <img
-                  src="D:\My Project\Healify\src\assets\psikolog 3.png"
-                  alt="psikolog 1"
+                  src="../../assets/Konsul/psikolog 3.png"
+                  alt="psikolog 3"
                   class=""
                 />
                 <div
                   class="absolute bottom-0 left-0 right-0 bg-[#FBEEAC] text-[#1D5D9B] font-[inter] font-medium text-center py-2"
                 >
-                  Sophia Lajubah, M.Psi.
+                  Sophia Pinjol, M.Psi.
                 </div>
               </div>
             </div>
@@ -146,8 +146,8 @@
                 class="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out relative flex items-center justify-center"
               >
                 <img
-                  src="D:\My Project\Healify\src\assets\psikolog 4.png"
-                  alt="psikolog 1"
+                  src="../../assets/Konsul/psikolog 4.png"
+                  alt="psikolog 4"
                   class=""
                 />
                 <div

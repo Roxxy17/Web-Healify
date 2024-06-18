@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
-import Home from "/My Project/Healify/src/components/Home.vue";
-import Meditation from "/My Project/Healify/src/components/Home_Pages/Meditation.vue";
-import Counselling from "/My Project/Healify/src/components/Home_Pages/Counselling.vue";
+import Home from "../components/Home.vue";
+import Meditation from "../components/Home_Pages/Meditation.vue";
+import Counselling from "../components/Home_Pages/Counselling.vue";
 import Journal from "../components/Home_Pages/Journal.vue";
 import AboutUs from "../components/Home_Pages/About_Us.vue";
 import Login from "../components/Home_Pages/Login.vue";
@@ -18,7 +18,6 @@ import Journal_v3 from "../components/Home_Pages/Journal_v3.vue";
 import Test from "../components/Test/Test.vue";
 import Hasilbaik from "../components/Test/Hasilbaik.vue";
 import Hasiljelek from "../components/Test/Hasiljelek.vue";
-import Berita from "../components/Berita.vue";
 import Meditation_v2 from "../components/Home_Pages/Meditation_v2.vue";
 
 const routes = [
@@ -26,11 +25,6 @@ const routes = [
     name: "Meditation_v2",
     path: "/Meditation_v2",
     component: Meditation_v2,
-  },
-  {
-    name: "Berita",
-    path: "/Berita",
-    component: Berita,
   },
   {
     name: "Test",

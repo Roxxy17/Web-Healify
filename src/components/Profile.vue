@@ -51,18 +51,19 @@
               >Log Out</router-link
             >
           </div>
-          
         </div>
         <div class="md:col-span-2">
           <div class="bg-white rounded shadow overflow-hidden">
             <div class="p-4 font-[inter]">
-              <p v-if="showMessage" class="text-2xl font-medium mb-2">Click the panel on the left to open the settings menu.</p>
+              <p v-if="showMessage" class="text-2xl font-medium mb-2">
+                Click the panel on the left to open the settings menu.
+              </p>
               <router-view />
             </div>
           </div>
         </div>
       </div>
-    </div>  
+    </div>
   </body>
 </template>
 
@@ -71,14 +72,13 @@ export default {
   name: "Profile",
   data() {
     return {
-      showMessage: true
+      showMessage: true,
     };
   },
   methods: {
     hideMessage() {
       this.showMessage = false;
-    }
-  }
+    },
+  },
 };
 </script>
-  

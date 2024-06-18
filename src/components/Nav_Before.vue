@@ -9,7 +9,7 @@
           class="text-xl font-[Poppins] text-white font-bold curson-pointer"
         >
           <img
-            src="D:\My Project\Healify\src\assets\Titik_koma.png"
+            src="../assets/Nav/Titik_koma.png"
             alt="Logo Healify"
             class="inline h-6 md:h-9 w-auto"
           />

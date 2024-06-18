@@ -7,7 +7,7 @@
         <div class="p-4 w-full">
           <div class="w-full px-4 flex flex-col md:flex-row mt-4 mb-4">
             <img
-              src="/src/assets/Konsul/Messaging.png"
+              src="../../assets/Konsul/Messaging.png"
               alt="Messaging"
               class="mr-4"
             />
@@ -22,7 +22,7 @@
 
         <div class="w-full px-4 flex mt-4 mb-4">
           <img
-            src="/src/assets/Konsul/Sopifud.png"
+            src="../../assets/Konsul/Sopifud.png"
             alt="Konselor"
             class="w-12 h-12 md:w-16 md:h-16 mr-4 rounded-full border border-gray-300"
           />
@@ -67,7 +67,7 @@
             <td>
               <div class="flex items-center mb-4">
                 <img
-                  src="/src/assets/Konsul/dana.png"
+                  src="../../assets/Konsul/dana.png"
                   alt="Logo Dana"
                   class="w-12 md:w-16 mr-2"
                 />
@@ -76,7 +76,7 @@
 
               <div class="flex items-center mb-4">
                 <img
-                  src="/src/assets/Konsul/gopay.png"
+                  src="../../assets/Konsul/gopay.png"
                   alt="Logo Gopay"
                   class="w-12 md:w-16 mr-2"
                 />
@@ -85,7 +85,7 @@
 
               <div class="flex items-center mb-4">
                 <img
-                  src="/src/assets/Konsul/shopeepay.png"
+                  src="../../assets/Konsul/shopeepay.png"
                   alt="Logo Shopeepay"
                   class="w-12 md:w-16 mr-2"
                 />
@@ -140,7 +140,7 @@
             <td>
               <div class="flex items-center mb-4">
                 <img
-                  src="/src/assets/Konsul/bca.png"
+                  src="../../assets/Konsul/bca.png"
                   alt="Logo BCA"
                   class="w-12 md:w-16 mr-2"
                 />
@@ -149,7 +149,7 @@
 
               <div class="flex items-center mb-4">
                 <img
-                  src="/src/assets/Konsul/bni.png"
+                  src="../../assets/Konsul/bni.png"
                   alt="Logo BNI"
                   class="w-12 md:w-16 mr-2"
                 />
@@ -158,7 +158,7 @@
 
               <div class="flex items-center mb-4">
                 <img
-                  src="/src/assets/Konsul/bri.png"
+                  src="../../assets/Konsul/bri.png"
                   alt="Logo BRI"
                   class="w-12 md:w-16 mr-2"
                 />
@@ -167,7 +167,7 @@
 
               <div class="flex items-center mb-4">
                 <img
-                  src="/src/assets/Konsul/mandiri.png"
+                  src="../../assets/Konsul/mandiri.png"
                   alt="Logo Mandiri"
                   class="w-12 md:w-16 mr-2"
                 />
