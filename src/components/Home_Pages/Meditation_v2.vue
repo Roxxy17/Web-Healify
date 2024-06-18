@@ -101,16 +101,73 @@
         </div>
       </div>
     </div>
+    <!-- * Ini Container Untuk Musiknya -->
 
-    <div class="container mt-20">
-      <div class="flex flex-wrap justify-center">
-        <div class="bg-white rounded-lg overflow-hidden">
-          <div class="font-[inter] text-4xl text-[#1D5D9B] font-semibold"> Sering Di Dengarkan
-            <div class=""></div>
-            <div class=""</div>
-          </div>
+    <div class="bg-gray-200 rounded-lg shadow-lg p-6">
+        <h2 class="text-xl font-semibold mb-4">Sering Di Dengarkan</h2>
+        <div class="flex space-x-6">
+            <div class="shadow-lg rounded-lg p-4 bg-white">
+                <img src="https://via.placeholder.com/150" alt="Belajar meditasi di healify" class="rounded-lg mb-4">
+                <div class="text-center">
+                    <p class="text-gray-500">Belajar meditasi</p>
+                    <p class="text-blue-600">di healify</p>
+                </div>
+            </div>
+            <div class="flex-grow">
+                <div class="flex items-center space-x-4 mb-4 shadow-lg rounded-lg p-4 bg-white">
+                    <div class="w-10 h-10 bg-blue-200 rounded-full flex items-center justify-center">
+                        <img src="https://via.placeholder.com/40" alt="Jaga tidurmu" class="rounded-full">
+                    </div>
+                    <div class="flex-grow">
+                        <p class="font-semibold">Jaga tidurmu</p>
+                        <p class="text-gray-500">10:00</p>
+                    </div>
+                    <button class="text-red-500">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20"><path d="M3.172 5.172a4 4 0 015.656 0L10 6.344l1.172-1.172a4 4 0 015.656 5.656L10 17.656l-6.828-6.828a4 4 0 010-5.656z"/></svg>
+                    </button>
+                </div>
+                <div class="flex items-center space-x-4 mb-4 shadow-lg rounded-lg p-4 bg-white">
+                    <div class="w-10 h-10 bg-blue-200 rounded-full flex items-center justify-center">
+                        <img src="https://via.placeholder.com/40" alt="Menjadi Lebih Baik" class="rounded-full">
+                    </div>
+                    <div class="flex-grow">
+                        <p class="font-semibold">Menjadi Lebih Baik</p>
+                        <p class="text-gray-500">8:00</p>
+                    </div>
+                    <button class="text-gray-400">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20"><path d="M3.172 5.172a4 4 0 015.656 0L10 6.344l1.172-1.172a4 4 0 015.656 5.656L10 17.656l-6.828-6.828a4 4 0 010-5.656z"/></svg>
+                    </button>
+                </div>
+                <div class="flex items-center space-x-4 mb-4 shadow-lg rounded-lg p-4 bg-white">
+                    <div class="w-10 h-10 bg-blue-200 rounded-full flex items-center justify-center">
+                        <img src="https://via.placeholder.com/40" alt="Musik Alam" class="rounded-full">
+                    </div>
+                    <div class="flex-grow">
+                        <p class="font-semibold">Musik Alam</p>
+                        <p class="text-gray-500">12:00</p>
+                    </div>
+                    <button class="text-gray-400">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20"><path d="M3.172 5.172a4 4 0 015.656 0L10 6.344l1.172-1.172a4 4 0 015.656 5.656L10 17.656l-6.828-6.828a4 4 0 010-5.656z"/></svg>
+                    </button>
+                </div>
+                <div class="flex items-center space-x-4 mb-4 shadow-lg rounded-lg p-4 bg-white">
+                    <div class="w-10 h-10 bg-blue-200 rounded-full flex items-center justify-center">
+                        <img src="https://via.placeholder.com/40" alt="Nuansa Damai" class="rounded-full">
+                    </div>
+                    <div class="flex-grow">
+                        <p class="font-semibold">Nuansa Damai</p>
+                        <p class="text-gray-500">15:00</p>
+                    </div>
+                    <button class="text-gray-400">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20"><path d="M3.172 5.172a4 4 0 015.656 0L10 6.344l1.172-1.172a4 4 0 015.656 5.656L10 17.656l-6.828-6.828a4 4 0 010-5.656z"/></svg>
+                    </button>
+                </div>
+                <div class="text-center mt-4 shadow-lg rounded-lg p-4 bg-white">
+                    <p class="text-gray-500">30 Lagu meditasi • 2 hr 16 min</p>
+                    <p class="text-blue-600">Kendalikan hatimu dengan meditasi healify</p>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
     <div
       class="min-h-screen bg-gray-200 flex flex-col items-center justify-center"

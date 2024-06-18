@@ -11,9 +11,11 @@
     </button>
   </div>
 
-  <div class="font-[inter] flex flex-col md:flex-row w-auto items-center mt-16">
+  <div
+    class="font-[inter] flex flex-col md:flex-row justify-center w-auto items-center mt-16"
+  >
     <div
-      class="md:ml-20 md:mr-60 text-center md:text-left mx-4 md:mx-0 space-y-6"
+    class=" md:pl-10 md:mr-60 lg:mr-96 text-center md:text-left mx-4 md:mx-0 space-y-6"
     >
       <h1 class="text-3xl text-[#1D5D9B] font-bold">
         Mengapa Pilih Meditasi <br class="hidden md:inline" />
@@ -26,12 +28,11 @@
         bersama Healify!
       </p>
     </div>
-
-    <div class="grid grid-cols-2 gap-4 mt-8 md:mt-0 mx-4 md:mx-0">
-      <img src="../../assets/Meditasi/1.png" alt="" />
-      <img src="../../assets/Meditasi/2.png" alt="" />
-      <img src="../../assets/Meditasi/3.png" alt="" />
-      <img src="../../assets/Meditasi/4.png" alt="" />
+    <div class="md:pr-10 grid grid-cols-2 gap-4 mt-8 md:mt-0 mx-4 md:mx-0">
+      <img class=" drop-shadow-xl bg-gray-200 rounded-xl" src="../../assets/Meditasi/1.png" alt="" />
+      <img class=" drop-shadow-xl bg-gray-200 rounded-xl" src="../../assets/Meditasi/2.png" alt="" />
+      <img class=" drop-shadow-xl bg-gray-200 rounded-xl" src="../../assets/Meditasi/3.png" alt="" />
+      <img class=" drop-shadow-xl bg-gray-200 rounded-xl" src="../../assets/Meditasi/4.png" alt="" />
     </div>
   </div>
 
@@ -149,7 +150,7 @@
 
   <div class="py-4 lg:py-8 px-4 lg:px-64">
     <div
-      class="flex flex-col lg:flex-row justify-between mt-4 bg-[#75C2F6] bg-opacity-40 rounded-xl p-4 lg:p-12"
+      class="flex flex-col lg:flex-row justify-between mt-4 bg-[#75C2F6] bg-opacity-40 rounded-xl p-4 lg:p-12 shadow-lg"
     >
       <div class="text-black mb-4 lg:mb-0">
         <h1 class="text-3xl font-semibold mx-4">
@@ -355,7 +356,7 @@
 </template>
 
 <script>
-import { RouterLink } from 'vue-router';
+import { RouterLink } from "vue-router";
 
 export default {
   name: "Meditation",
