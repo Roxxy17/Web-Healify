@@ -17,7 +17,7 @@
           </p>
         </div>
         <button
-          class="bg-[#F4D160] text-[#1D5D9B] font-semibold px-8 py-2 rounded-full ml-auto"
+          class="bg-[#F4D160] text-[#1D5D9B] font-semibold px-8 py-2 rounded-full ml-auto hover:bg-[#F4C150] hover:shadow-lg transition"
         >
         <router-link
             to="/Counselling_v2"

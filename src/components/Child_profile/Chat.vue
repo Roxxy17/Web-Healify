@@ -29,7 +29,7 @@
         <div class="grid md:grid-cols-2">
           <div class="h-full pr-6">
             <img
-              src="D:\My Project\Healify\src\assets\Logo.png"
+              src="../../assets/Logo.png"
               alt="Foto Logo Healify"
             />
             <p class="mt-3 mb-12 text-lg text-gray-400 dark:text-slate-600">

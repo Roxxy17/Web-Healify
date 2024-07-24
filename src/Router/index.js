@@ -20,9 +20,10 @@ import Hasilbaik from "../components/Test/Hasilbaik.vue";
 import Hasiljelek from "../components/Test/Hasiljelek.vue";
 import Meditation_v2 from "../components/Home_Pages/Meditation_v2.vue";
 
-const routes = [
-  {
-    name: "Meditation_v2",
+const router = createRouter({
+  history: createWebHistory(),
+  routes : [
+  { 
     path: "/Meditation_v2",
     component: Meditation_v2,
   },
@@ -105,6 +106,7 @@ const routes = [
     name: "Profile",
     path: "/Profile",
     component: Profile,
+    meta : {requiresAuth: true },
     children: [
       {
         path: "/Setting",
@@ -124,12 +126,17 @@ const routes = [
       },
     ],
   },
-];
-const router = Router();
-export default router;
-function Router() {
-  return createRouter({
-    history: createWebHistory(),
-    routes,
-  });
-}
+]
+})
+
+router.beforeEach((to, from, next) => {
+  const loggedIn = localStorage.getItem("user");
+
+  if (to.matched.some((record) => record.meta.requiresAuth) && !loggedIn) {
+    next("/Login");
+  } else {
+    next();
+  }
+});
+
+export default router

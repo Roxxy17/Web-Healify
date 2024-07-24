@@ -6,7 +6,7 @@
     <div>
       <img
         class="float-left shadow-lg mr-4 bg-white p-3 rounded-lg"
-        src="D:\My Project\Healify\src\assets\TidakBaik.png"
+        src="../../assets/TidakBaik.png"
         alt=""
         width="70"
         height="70"

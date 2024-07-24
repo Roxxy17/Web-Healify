@@ -3,6 +3,7 @@
     rel="stylesheet"
     href="https://cdn.tailgrids.com/tailgrids-fallback.css"
   />
+
   <!--Bagian Photo Card Musik-->
   <section class="pt-10 bg-gray-200">
     <h1 class="text-[#1D5D9B] font-[inter] text-4xl font-bold mb-10 ml-8">
@@ -13,9 +14,9 @@
         <div class="w-full md:w-1/2 xl:w-1/3 px-4 mb-8">
           <div class="bg-white rounded-lg overflow-hidden">
             <img
-              src="../../assets/Meditasi/Gunung.png"
+              src="../../assets/Meditasi/Thumbnail.png"
               alt="image"
-              class="w-full pt-2"
+              class="w-full"
             />
             <div class="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
               <h3>
@@ -33,7 +34,7 @@
               </p>
               <a
                 href="javascript:void(0)"
-                class="inline-block py-2 px-7 border border-[#E5E7EB] rounded-full text-base text-body-color font-medium hover:border-primary hover:bg-primary hover:text-white transition"
+                class="inline-block py-2 px-7 border border-[#2c53a1] rounded-full text-base text-body-color font-medium hover:border-primary hover:bg-primary hover:text-white transition"
               >
                 Dengarkan Sekarang
               </a>
@@ -43,9 +44,9 @@
         <div class="w-full md:w-1/2 xl:w-1/3 px-4 mb-8">
           <div class="bg-white rounded-lg overflow-hidden">
             <img
-              src="../../assets/Meditasi/GUnung.png"
+              src="../../assets/Meditasi/Thumbnail2.png"
               alt="image"
-              class="w-full pt-2"
+              class="w-full"
             />
             <div class="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
               <h3>
@@ -63,7 +64,7 @@
               </p>
               <a
                 href="javascript:void(0)"
-                class="inline-block py-2 px-7 border border-[#E5E7EB] rounded-full text-base text-body-color font-medium hover:border-primary hover:bg-primary hover:text-white transition"
+                class="inline-block py-2 px-7 border border-[#2c53a1] rounded-full text-base text-body-color font-medium hover:border-primary hover:bg-primary hover:text-white transition"
               >
                 Dengarkan Sekarang
               </a>
@@ -73,9 +74,9 @@
         <div class="w-full md:w-1/2 xl:w-1/3 px-4">
           <div class="bg-white rounded-lg overflow-hidden">
             <img
-              src="../../assets/Meditasi/Gunung.png"
+              src="../../assets/Meditasi/Thumbnail3.png"
               alt="image"
-              class="w-full pt-2"
+              class="w-full"
             />
             <div class="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
               <h3>
@@ -92,7 +93,7 @@
               </p>
               <a
                 href="javascript:void(0)"
-                class="inline-block py-2 px-7 border border-[#E5E7EB] rounded-full text-base text-body-color font-medium hover:border-primary hover:bg-primary hover:text-white transition"
+                class="inline-block py-2 px-7 border border-[#2c53a1] rounded-full text-base text-body-color font-medium hover:border-primary hover:bg-primary hover:text-white transition"
               >
                 Dengarkan Sekarang
               </a>
@@ -104,267 +105,407 @@
     <!-- * Ini Container Untuk Musiknya -->
 
     <div class="bg-gray-200 rounded-lg shadow-lg p-6">
-        <h2 class="text-xl font-semibold mb-4">Sering Di Dengarkan</h2>
-        <div class="flex space-x-6">
-            <div class="shadow-lg rounded-lg p-4 bg-white">
-                <img src="https://via.placeholder.com/150" alt="Belajar meditasi di healify" class="rounded-lg mb-4">
-                <div class="text-center">
-                    <p class="text-gray-500">Belajar meditasi</p>
-                    <p class="text-blue-600">di healify</p>
-                </div>
-            </div>
-            <div class="flex-grow">
-                <div class="flex items-center space-x-4 mb-4 shadow-lg rounded-lg p-4 bg-white">
-                    <div class="w-10 h-10 bg-blue-200 rounded-full flex items-center justify-center">
-                        <img src="https://via.placeholder.com/40" alt="Jaga tidurmu" class="rounded-full">
-                    </div>
-                    <div class="flex-grow">
-                        <p class="font-semibold">Jaga tidurmu</p>
-                        <p class="text-gray-500">10:00</p>
-                    </div>
-                    <button class="text-red-500">
-                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20"><path d="M3.172 5.172a4 4 0 015.656 0L10 6.344l1.172-1.172a4 4 0 015.656 5.656L10 17.656l-6.828-6.828a4 4 0 010-5.656z"/></svg>
-                    </button>
-                </div>
-                <div class="flex items-center space-x-4 mb-4 shadow-lg rounded-lg p-4 bg-white">
-                    <div class="w-10 h-10 bg-blue-200 rounded-full flex items-center justify-center">
-                        <img src="https://via.placeholder.com/40" alt="Menjadi Lebih Baik" class="rounded-full">
-                    </div>
-                    <div class="flex-grow">
-                        <p class="font-semibold">Menjadi Lebih Baik</p>
-                        <p class="text-gray-500">8:00</p>
-                    </div>
-                    <button class="text-gray-400">
-                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20"><path d="M3.172 5.172a4 4 0 015.656 0L10 6.344l1.172-1.172a4 4 0 015.656 5.656L10 17.656l-6.828-6.828a4 4 0 010-5.656z"/></svg>
-                    </button>
-                </div>
-                <div class="flex items-center space-x-4 mb-4 shadow-lg rounded-lg p-4 bg-white">
-                    <div class="w-10 h-10 bg-blue-200 rounded-full flex items-center justify-center">
-                        <img src="https://via.placeholder.com/40" alt="Musik Alam" class="rounded-full">
-                    </div>
-                    <div class="flex-grow">
-                        <p class="font-semibold">Musik Alam</p>
-                        <p class="text-gray-500">12:00</p>
-                    </div>
-                    <button class="text-gray-400">
-                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20"><path d="M3.172 5.172a4 4 0 015.656 0L10 6.344l1.172-1.172a4 4 0 015.656 5.656L10 17.656l-6.828-6.828a4 4 0 010-5.656z"/></svg>
-                    </button>
-                </div>
-                <div class="flex items-center space-x-4 mb-4 shadow-lg rounded-lg p-4 bg-white">
-                    <div class="w-10 h-10 bg-blue-200 rounded-full flex items-center justify-center">
-                        <img src="https://via.placeholder.com/40" alt="Nuansa Damai" class="rounded-full">
-                    </div>
-                    <div class="flex-grow">
-                        <p class="font-semibold">Nuansa Damai</p>
-                        <p class="text-gray-500">15:00</p>
-                    </div>
-                    <button class="text-gray-400">
-                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20"><path d="M3.172 5.172a4 4 0 015.656 0L10 6.344l1.172-1.172a4 4 0 015.656 5.656L10 17.656l-6.828-6.828a4 4 0 010-5.656z"/></svg>
-                    </button>
-                </div>
-                <div class="text-center mt-4 shadow-lg rounded-lg p-4 bg-white">
-                    <p class="text-gray-500">30 Lagu meditasi • 2 hr 16 min</p>
-                    <p class="text-blue-600">Kendalikan hatimu dengan meditasi healify</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div
-      class="min-h-screen bg-gray-200 flex flex-col items-center justify-center"
-    >
-      <div
-        class="relative max-w-xl w-full h-36 bg-white rounded-lg shadow-lg overflow-hidde mb-32"
-      >
-        <div class="absolute inset-0 rounded-lg overflow-hidden bg-red-200">
-          <img
-            src="https://images.unsplash.com/photo-1543794327-59a91fb815d1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&h=200&q=80"
-            alt=""
-          />
-          <div
-            class="absolute inset-0 backdrop backdrop-blur-10 bg-gradient-to-b from-transparent to-black"
-          ></div>
-        </div>
-        <div
-          class="absolute flex space-x-6 transform translate-x-6 translate-y-8"
-        >
-          <div class="w-36 h-36 rounded-lg shadow-lg overflow-hidden">
+      <h2 class="text-3xl font-semibold mb-4 font-[inter]">
+        Sering Di Dengarkan
+      </h2>
+      <div class="flex space-x-6">
+        <div class="shadow-lg rounded-lg p-4 bg-white">
+          <div class="flex justify-center">
             <img
-              src="https://images.unsplash.com/photo-1543794327-59a91fb815d1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=200&h=200&q=80"
-              alt=""
+              src="../../assets/Meditasi/Thumbnail.png"
+              alt="Belajar meditasi di healify"
+              class="rounded-lg mb-4 w-52 shadow-lg"
             />
           </div>
-          <div class="text-white pt-12">
-            <h3 class="font-bold">Album</h3>
-            <div class="text-sm opacity-60">Super Interpret</div>
-            <div class="mt-8 text-gray-400">
-              <div class="flex items-center space-x-2 text-xs">
-                <svg
-                  class="w-4 h-4"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <path d="M3 18v-6a9 9 0 0 1 18 0v6"></path>
-                  <path
-                    d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"
-                  ></path>
-                </svg>
-                <span>Easy listening</span>
-              </div>
+          <div class="text-center font-[inter] text-xl">
+            <p class="text-gray-500 font-bold">Belajar meditasi</p>
+            <p class="text-blue-600 font-semibold">di healify</p>
+          </div>
+          <div class="text-center mt-4 shadow-lg rounded-lg p-4 bg-white">
+            "Kesehatan mental adalah <br />
+            prioritas. Anda memiliki <br />
+            hak untuk beristirahat <br />
+            dan merawat diri sendiri."
+          </div>
+          <div class="text-center mt-4 shadow-lg rounded-lg p-4 bg-white">
+            "Tetaplah berdiri saat <br />
+            dunia memikirkan Anda <br />
+            tidak mampu melakukannya."
+          </div>
+        </div>
+        <div class="flex-grow">
+          <button
+            type="button"
+            class="text-black font-semibold hover:underline cursor-pointer mb-4 bg-white rounded-lg border border-blue-600 inline-block text-base py-2 px-7 hover:border-primary hover:bg-primary hover:text-white transition"
+          >
+            Playlist Hilangkan Stress
+          </button>
+          <div
+            class="flex items-center space-x-4 mb-4 shadow-lg rounded-lg p-4 bg-white"
+          >
+            <div
+              class="w-10 h-10 bg-blue-200 rounded-full flex items-center justify-center"
+            >
+              <img
+                src="../../assets/Meditasi/Thumbnail3.png"
+                alt="Jaga tidurmu"
+                class="rounded-full"
+              />
             </div>
+
+            <div class="flex-grow">
+              <h2 class="text-lg font-semibold">{{ currentSong.title }}</h2>
+              <p class="text-sm text-gray-600">{{ currentSong.artist }}</p>
+            </div>
+            <button class="text-red-500">
+              <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
+                <path
+                  d="M3.172 5.172a4 4 0 015.656 0L10 6.344l1.172-1.172a4 4 0 015.656 5.656L10 17.656l-6.828-6.828a4 4 0 010-5.656z"
+                />
+              </svg>
+            </button>
+          </div>
+          <div
+            class="flex items-center space-x-4 mb-4 shadow-lg rounded-lg p-4 bg-white"
+          >
+            <div
+              class="w-10 h-10 bg-blue-200 rounded-full flex items-center justify-center"
+            >
+              <img
+                src="../../assets/Meditasi/Thumbnail3.png"
+                alt="Menjadi Lebih Baik"
+                class="rounded-full"
+              />
+            </div>
+            <div class="flex-grow">
+              <h2 class="text-lg font-semibold">{{ currentSong.title }}</h2>
+              <p class="text-sm text-gray-600">{{ currentSong.artist }}</p>
+            </div>
+            <button class="text-gray-400">
+              <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
+                <path
+                  d="M3.172 5.172a4 4 0 015.656 0L10 6.344l1.172-1.172a4 4 0 015.656 5.656L10 17.656l-6.828-6.828a4 4 0 010-5.656z"
+                />
+              </svg>
+            </button>
+          </div>
+          <div
+            class="flex items-center space-x-4 mb-4 shadow-lg rounded-lg p-4 bg-white"
+          >
+            <div
+              class="w-10 h-10 bg-blue-200 rounded-full flex items-center justify-center"
+            >
+              <img
+                src="../../assets/Meditasi/Thumbnail3.png"
+                alt="Musik Alam"
+                class="rounded-full"
+              />
+            </div>
+            <div class="flex-grow">
+              <h2 class="text-lg font-semibold">{{ currentSong.title }}</h2>
+              <p class="text-sm text-gray-600">{{ currentSong.artist }}</p>
+            </div>
+            <button class="text-gray-400">
+              <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
+                <path
+                  d="M3.172 5.172a4 4 0 015.656 0L10 6.344l1.172-1.172a4 4 0 015.656 5.656L10 17.656l-6.828-6.828a4 4 0 010-5.656z"
+                />
+              </svg>
+            </button>
+          </div>
+          <div
+            class="flex items-center space-x-4 mb-4 shadow-lg rounded-lg p-4 bg-white"
+          >
+            <div
+              class="w-10 h-10 bg-blue-200 rounded-full flex items-center justify-center"
+            >
+              <img
+                src="../../assets/Meditasi/Thumbnail3.png"
+                alt="Nuansa Damai"
+                class="rounded-full"
+              />
+            </div>
+            <div class="flex-grow">
+              <h2 class="text-lg font-semibold">{{ currentSong.title }}</h2>
+              <p class="text-sm text-gray-600">{{ currentSong.artist }}</p>
+            </div>
+            <button class="text-gray-400">
+              <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
+                <path
+                  d="M3.172 5.172a4 4 0 015.656 0L10 6.344l1.172-1.172a4 4 0 015.656 5.656L10 17.656l-6.828-6.828a4 4 0 010-5.656z"
+                />
+              </svg>
+            </button>
+          </div>
+          <div class="text-center mt-4 shadow-lg rounded-lg p-4 bg-white">
+            <p class="text-gray-500">30 Lagu meditasi • 2 hr 16 min</p>
+            <p class="text-blue-600">
+              Kendalikan hatimu dengan meditasi healify
+            </p>
           </div>
         </div>
       </div>
+    </div>
 
-      <div class="max-w-xl bg-white rounded-lg shadow-lg overflow-hidden">
-        <div class="relative">
-          <img
-            src="https://images.unsplash.com/photo-1500099817043-86d46000d58f?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=800&h=250&q=80"
-            class="object-cover"
+    <div class="bg-gray-200 flex items-center justify-center">
+      <div
+        class="flex flex-col items-center bg-gray-100 rounded-full px-64 py-2 mb-6 mt-2"
+      >
+        <h2 class="text-lg font-semibold">{{ currentSong.title }}</h2>
+        <p class="text-sm text-gray-600">{{ currentSong.artist }}</p>
+      </div>
+    </div>
+
+    <!--* ini music player -->
+    <div class="bg-gray-200 flex items-center justify-center">
+      <div
+        class="flex flex-col items-center bg-gray-100 rounded-full px-64 py-2 mb-6 mt-2"
+      >
+        <!-- Audio controls -->
+        <div class="w-full flex items-center mb-4">
+          <span class="text-sm text-gray-600 mx-4">{{
+            formatTime(currentTime)
+          }}</span>
+           <input
+            type="range"
+            class="flex-grow mx-4 w-[500px]"
+            v-model="currentTime"
+            :max="duration"
+            @input="seek"
           />
-          <div
-            class="absolute p-4 inset-0 flex flex-col justify-end bg-gradient-to-b from-transparent to-gray-900 backdrop backdrop-blur-5 text-white"
-          >
-            <h3 class="font-bold">Super Artist</h3>
-            <span class="opacity-70">Albumtitle</span>
-          </div>
+          <span class="text-sm text-gray-600 mx-4">{{
+            formatTime(duration)
+          }}</span>
         </div>
-        <div>
-          <div class="relative h-1 bg-gray-200">
-            <div
-              class="absolute h-full w-1/2 bg-green-500 flex items-center justify-end"
+        <div class="w-full flex items-center justify-center space-x-10 mb-2">
+          <button @click="prevSong" class="text-gray-600">
+            <svg
+              class="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
             >
-              <div class="rounded-full w-3 h-3 bg-white shadow"></div>
-            </div>
-          </div>
-        </div>
-        <div
-          class="flex justify-between text-xs font-semibold text-gray-500 px-4 py-2"
-        >
-          <div>1:50</div>
-          <div class="flex space-x-3 p-2">
-            <button class="focus:outline-none">
-              <svg
-                class="w-4 h-4"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
+              <path
                 stroke-linecap="round"
                 stroke-linejoin="round"
-              >
-                <polygon points="19 20 9 12 19 4 19 20"></polygon>
-                <line x1="5" y1="19" x2="5" y2="5"></line>
-              </svg>
-            </button>
-            <button
-              class="rounded-full w-8 h-8 flex items-center justify-center pl-0.5 ring-2 ring-gray-100 focus:outline-none"
+                stroke-width="2"
+                d="M15 19l-7-7 7-7"
+              ></path>
+            </svg>
+          </button>
+          <button @click="togglePlayPause" class="text-blue-500">
+            <svg
+              v-if="isPlaying"
+              class="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
             >
-              <svg
-                class="w-5 h-5"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
+              <path
                 stroke-linecap="round"
                 stroke-linejoin="round"
-              >
-                <polygon points="5 3 19 12 5 21 5 3"></polygon>
-              </svg>
-            </button>
-            <button class="focus:outline-none">
-              <svg
-                class="w-4 h-4"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
                 stroke-width="2"
+                d="M10 9v6m4-6v6"
+              ></path>
+            </svg>
+            <svg
+              v-else
+              class="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
                 stroke-linecap="round"
                 stroke-linejoin="round"
-              >
-                <polygon points="5 4 15 12 5 20 5 4"></polygon>
-                <line x1="19" y1="5" x2="19" y2="19"></line>
-              </svg>
-            </button>
-          </div>
-          <div>3:00</div>
+                stroke-width="2"
+                d="M14.752 11.168l-6.824-4.715A1 1 0 007 7.943v8.114a1 1 0 001.928.573l6.824-4.715a1 1 0 000-1.716z"
+              ></path>
+            </svg>
+          </button>
+          <button @click="nextSong" class="text-gray-600">
+            <svg
+              class="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M9 5l7 7-7 7"
+              ></path>
+            </svg>
+          </button>
+          <input type="range" class="w-32" v-model="volume" min="0" max="100" />
         </div>
-        <ul class="text-xs sm:text-base divide-y border-t cursor-default">
-          <li class="flex items-center space-x-3 hover:bg-gray-100">
-            <button class="p-3 hover:bg-green-500 group focus:outline-none">
-              <svg
-                class="w-4 h-4 group-hover:text-white"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <polygon points="5 3 19 12 5 21 5 3"></polygon>
-              </svg>
-            </button>
-            <div class="flex-1">Artist - Title</div>
-            <div class="text-xs text-gray-400">2:58</div>
-            <button class="focus:outline-none pr-4 group">
-              <svg
-                class="w-4 h-4 group-hover:text-green-600"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <path
-                  d="M3 15v4c0 1.1.9 2 2 2h14a2 2 0 0 0 2-2v-4M17 9l-5 5-5-5M12 12.8V2.5"
-                />
-              </svg>
-            </button>
-          </li>
-          <li class="flex items-center space-x-3 hover:bg-gray-100">
-            <button class="p-3 hover:bg-green-500 group focus:outline-none">
-              <svg
-                class="w-4 h-4 group-hover:text-white"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <polygon points="5 3 19 12 5 21 5 3"></polygon>
-              </svg>
-            </button>
-            <div class="flex-1">Artist - Title</div>
-            <div class="text-xs text-gray-400">2:58</div>
-            <button class="focus:outline-none pr-4 group">
-              <svg
-                class="w-4 h-4 group-hover:text-green-600"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <path
-                  d="M3 15v4c0 1.1.9 2 2 2h14a2 2 0 0 0 2-2v-4M17 9l-5 5-5-5M12 12.8V2.5"
-                />
-              </svg>
-            </button>
-          </li>
-        </ul>
       </div>
     </div>
   </section>
 </template>
-
 <script>
 export default {
-  name: "Meditation_v2",
+  data() {
+    return {
+      songs: [
+        {
+          title: "Rainy Day",
+          artist: "Artist 1",
+          src: "https://cdn.pixabay.com/audio/2022/11/11/audio_84306ee149.mp3",
+        },
+        {
+          title: "Haunted Day",
+          artist: "Artist 2",
+          src: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
+        },
+        {
+          title: "Melachony",
+          artist: "Artist 1",
+          src: "https://cdn.pixabay.com/audio/2022/11/11/audio_84306ee149.mp3",
+        },
+        {
+          title: "Hype Meditation",
+          artist: "Artist 2",
+          src: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
+        },
+        ],
+      currentSongIndex: 0,
+      isPlaying: false,
+      volume: 50,
+      currentTime: 0,
+      duration: 0,
+      audio: new Audio(),
+    };
+  },
+  computed: {
+    currentSong() {
+      return this.songs[this.currentSongIndex];
+    },
+  },
+  methods: {
+    togglePlayPause() {
+      if (this.isPlaying) {
+        this.audio.pause();
+      } else {
+        this.audio.src = this.currentSong.src;
+        this.audio.volume = this.volume / 100;
+        this.audio.play();
+      }
+      this.isPlaying = !this.isPlaying;
+    },
+    nextSong() {
+      this.currentSongIndex = (this.currentSongIndex + 1) % this.songs.length;
+      if (this.isPlaying) {
+        this.audio.src = this.currentSong.src;
+        this.audio.play();
+      }
+    },
+    prevSong() {
+      this.currentSongIndex =
+        (this.currentSongIndex - 1 + this.songs.length) % this.songs.length;
+      if (this.isPlaying) {
+        this.audio.src = this.currentSong.src;
+        this.audio.play();
+      }
+    },
+    formatTime(seconds) {
+      const minutes = Math.floor(seconds / 60);
+      const secs = Math.floor(seconds % 60);
+      return `${minutes}:${secs < 10 ? "0" : ""}${secs}`;
+    },
+    updateTime() {
+      this.currentTime = this.audio.currentTime;
+      this.duration = this.audio.duration;
+    },
+    seek(event) {
+      const newTime = event.target.value;
+      this.audio.currentTime = newTime;
+      this.currentTime = newTime;
+    },
+  },
+  watch: {
+    volume(newVolume) {
+      this.audio.volume = newVolume / 100;
+    },
+    currentTime(newTime) {
+      this.audio.currentTime = newTime;
+    },
+  },
+  mounted() {
+    this.audio.addEventListener("ended", this.nextSong);
+    this.audio.addEventListener("timeupdate", this.updateTime);
+  },
+  destroyed() {
+    this.audio.removeEventListener("ended", this.nextSong);
+    this.audio.removeEventListener("timeupdate", this.updateTime);
+    this.audio.pause();
+    this.audio = null;
+  },
 };
 </script>
+
+<style scoped>
+.max-w-md {
+  max-width: 28rem;
+}
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+.bg-gray-200 {
+  background-color: #e2e8f0;
+}
+.rounded-full {
+  border-radius: 9999px;
+}
+.flex {
+  display: flex;
+}
+.flex-col {
+  flex-direction: column;
+}
+.items-center {
+  align-items: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.p-4 {
+  padding: 1rem;
+}
+.text-blue-500 {
+  color: #3b82f6;
+}
+.text-gray-600 {
+  color: #4b5563;
+}
+.h-6 {
+  height: 1.5rem;
+}
+.w-6 {
+  width: 1.5rem;
+}
+.w-32 {
+  width: 8rem;
+}
+.mb-4 {
+  margin-bottom: 1rem;
+}
+.text-center {
+  text-align: center;
+}
+.text-lg {
+  font-size: 1.125rem;
+}
+.font-semibold {
+  font-weight: 600;
+}
+.text-sm {
+  font-size: 0.875rem;
+}
+.mx-4 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+</style>

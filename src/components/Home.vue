@@ -20,7 +20,12 @@
           type="button"
           class="text-[#1D5D9B] bg-yellow-400 hover:bg-yellow-500 focus:outline-none focus:ring-4 focus:ring-yellow-300 font-medium rounded-full text-sm md:text-base px-4 md:px-5 py-2 text-center md:me-2 md:mb-2 dark:focus:ring-yellow-900 shadow-lg font-[inter]"
         >
-          Mulai Konseling
+
+           <router-link
+            to="/Counselling"
+            class="text-[#525252] transition duration-300 hover:text-white"
+            >Mulai Konselling</router-link
+          >
         </button>
       </div>
       <img
@@ -59,9 +64,14 @@
         </h2>
         <button
           type="button"
-          class="text-[#1D5D9B] bg-yellow-400 hover:bg-yellow-500 focus:outline-none focus:ring-4 focus:ring-yellow-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:focus:ring-yellow-900 shadow-lg font-[inter]"
+          class="text-[#1D5D9B] bg-yellow-400 hover:bg-yellow-500 focus:outline-none focus:ring-4 focus:ring-yellow-300 font-medium rounded-full text-sm md:text-base px-4 md:px-5 py-2 text-center md:me-2 md:mb-2 dark:focus:ring-yellow-900 shadow-lg font-[inter]"
         >
-          Mulai Tes
+
+           <router-link
+            to="/Test"
+            class="text-[#525252] transition duration-300 hover:text-white"
+            >Mulai Test</router-link
+          >
         </button>
       </div>
     </div>
@@ -92,7 +102,12 @@
           type="button"
           class="text-[#1D5D9B] bg-yellow-400 hover:bg-yellow-500 focus:outline-none focus:ring-4 focus:ring-yellow-300 font-medium rounded-full text-sm md:text-base px-4 md:px-5 py-2 text-center md:me-2 md:mb-2 dark:focus:ring-yellow-900 shadow-lg font-[inter]"
         >
-          Mulai Meditasi
+
+           <router-link
+            to="/Meditation"
+            class="text-[#525252] transition duration-300 hover:text-white"
+            >Mulai Meditasi</router-link
+          >
         </button>
       </div>
       <img
@@ -100,49 +115,6 @@
         src="../assets/Home/Young.png"
         alt="Gambar Wanita"
       />
-    </div>
-    <p class="border-b-2 border-[#1D5D9B] rounded-xl mr-6 ml-6 opacity-30"></p>
-  </div>
-
-  <!--ini flex Keempat-->
-  <div class="space-y-20 md:space-y-32 mt-8">
-    <!-- tambahkan mt-8 di sini -->
-    <div
-      class="h-96 md:h-[400px] pt-10 md:pt-20 flex flex-col md:flex-row justify-center items-center space-y-5 md:space-y-0 md:space-x-20"
-    >
-      <img
-        class="h-auto w-28 md:w-48"
-        src="../assets/Home/woman.png"
-        alt="Gambar Wanita"
-      />
-      <div class="space-y-8 md:space-y-10 pl-3">
-        <div class="inline-flex w-auto h-10 space-x-5">
-          <img
-            src="../assets/Home/Search.png"
-            alt="foto search"
-          />
-          <h1
-            class="font-[inter] font-bold text-2xl sm:text-3xl md:text-4xl text-[#1D5D9B] md:drop-shadow-lg"
-          >
-            Tahukah Kamu?
-          </h1>
-        </div>
-        <h2 class="font-[inter] text-[#1D5D9B] drop-shadow-md">
-          Ayo cari tahu lebih tentang kesehatan mental <br />
-          tips and trick lainnya untuk menjaga <br />
-          kesehatan mental mu
-        </h2>
-        <button
-          type="button"
-          class="text-[#1D5D9B] bg-yellow-400 hover:bg-yellow-500 focus:outline-none focus:ring-4 focus:ring-yellow-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:focus:ring-yellow-900 shadow-lg font-[inter]"
-        >
-          <router-link
-            to="/Test"
-            class="text-[#525252] transition duration-300 hover:text-white"
-            >Cek Sekarang</router-link
-          >
-        </button>
-      </div>
     </div>
     <p class="border-b-2 border-[#1D5D9B] rounded-xl mr-6 ml-6 opacity-30"></p>
   </div>
@@ -172,7 +144,7 @@
               class="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out relative flex items-center justify-center"
             >
               <img
-                src="../assets/Home/psikolog 1.png"
+                src="https://i.ibb.co.com/jvsJbH2/atha.png"
                 alt="psikolog 1"
                 class=""
               />
@@ -189,7 +161,7 @@
               class="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out relative flex items-center justify-center"
             >
               <img
-                src="../assets/Home/wokwok.jpg"
+                src="https://i.ibb.co.com/CJj7hCq/ahyigeprek.png"
                 alt="Seorang Platypus"
                 class=""
               />
@@ -205,7 +177,7 @@
               class="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out relative flex items-center justify-center"
             >
               <img
-                src="../assets/Home/psikolog 2.png"
+                src="https://i.ibb.co.com/80ns6cs/iwanlajuba.png"
                 alt="psikolog 2"
                 class=""
               />
@@ -221,7 +193,7 @@
               class="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out relative flex items-center justify-center"
             >
               <img
-                src="../assets/Home/psikolog 3.png"
+                src="https://i.ibb.co.com/bJhLnP9/ziabukanjia.png"
                 alt="psikolog 3"
                 class=""
               />
@@ -237,14 +209,14 @@
               class="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out relative flex items-center justify-center"
             >
               <img
-                src="../assets/Home/psikolog 4.png"
+                src="https://i.ibb.co.com/vL7wWTb/rifqi.png"
                 alt="psikolog 4"
                 class=""
               />
               <div
                 class="absolute bottom-0 left-0 right-0 bg-[#FBEEAC] text-[#1D5D9B] font-[inter] font-medium text-center py-2"
               >
-                Ervin, M.Psi.
+                Rifqi, M.Psi.
               </div>
             </div>
           </div>
@@ -268,6 +240,14 @@ export default {
         };
         return options;
       });
+  },
+  mounted() {
+    this.scrollToTop(); 
+  },
+  methods: {
+    scrollToTop() {
+      window.scrollTo(0, 0); // Scroll to top method
+    },
   },
 };
 </script>

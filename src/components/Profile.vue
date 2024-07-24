@@ -47,7 +47,7 @@
               to="/Login"
               class="py-2 px-4 border-b border-gray-200 block font-semibold cursor-pointer hover:bg-gray-200"
               data-toggle="list"
-              @click="hideMessage"
+              @click="logout"
               >Log Out</router-link
             >
           </div>
@@ -68,6 +68,8 @@
 </template>
 
 <script>
+import axios from "axios";
+
 export default {
   name: "Profile",
   data() {
@@ -78,6 +80,18 @@ export default {
   methods: {
     hideMessage() {
       this.showMessage = false;
+    },
+    logout() {
+      axios
+        .get('http://localhost/Healify/master/logout.php') // Ensure this is the correct URL
+        .then(response => {
+          console.log("Response received:", response.data);
+          //this.$router.push("/login");
+        })
+        .catch(error => {
+          console.error("Request failed:", error);
+          alert('Logout failed.');
+        });
     },
   },
 };

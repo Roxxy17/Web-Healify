@@ -4,7 +4,7 @@
       <div class="">
         <img
           class="float-left"
-          src="D:\My Project\Healify\src\assets\Error.png"
+          src="../../assets/Error.png"
           alt=""
           width="25"
           height="25"

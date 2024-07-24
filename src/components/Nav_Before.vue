@@ -39,7 +39,7 @@
         </li>
         <li class="mx-5 my-4 md:my-0">
           <router-link
-            to="/counseling"
+            to="/Counselling"
             class="text-[#525252] transition duration-300 hover:text-white"
             >Counseling</router-link
           >

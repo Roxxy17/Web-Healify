@@ -1,93 +1,127 @@
 <template>
-  <body>
-    <div class="container mx-auto p-4 lg:p-8">
-      <!-- Header -->
-      <div class="bg-white rounded-t-lg p-4 text-center">
-        <h1 class="text-3xl font-bold text-[#1D5D9B]">Catatan Jurnalmu</h1>
-      </div>
+  <div class="bg-gray-100 p-4">
+    <div class="container mx-auto">
+      <div class="bg-white p-4 rounded shadow">
+        <h1 class="text-2xl font-bold mb-4">CRUD Jurnal</h1>
 
-      <div class="py-4 lg:py-8 px-4 lg:px-64">
-        <!-- Month Selection -->
-        <div
-          class="flex flex-col lg:flex-row justify-between mt-4 border-2 border-[#469CDA] rounded-xl p-4 lg:p-12"
-        >
-          <div class="text-[#1D5D9B] mb-4 lg:mb-0">
-            <h1 class="text-lg mx-4">Pilih Bulan</h1>
-            <h2 class="text-2xl font-semibold mx-4">Mei 2024</h2>
+        <!-- Form Input -->
+        <form @submit.prevent="saveJurnal" class="mb-4">
+          <div class="mb-4">
+            <label for="juduljurnal" class="block text-sm font-medium text-gray-700 mb-1">Judul Jurnal</label>
+            <input v-model="juduljurnal" id="juduljurnal" class="form-input w-full rounded-md shadow-sm" type="text">
           </div>
-          <div class="my-auto px-8 flex justify-between lg:justify-start">
-            <button
-              class="text-gray-600 hover:text-blue-500 focus:outline-none"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="h-6 w-6"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M15 19l-7-7 7-7"
-                />
-              </svg>
-            </button>
-            <button
-              class="text-gray-600 hover:text-blue-500 focus:outline-none"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="h-6 w-6"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M9 5l7 7-7 7"
-                />
-              </svg>
-            </button>
+          <div class="mb-4">
+            <label for="tanggaljurnal" class="block text-sm font-medium text-gray-700 mb-1">Tanggal Jurnal</label>
+            <input v-model="tanggaljurnal" id="tanggaljurnal" type="date" class="form-input w-full rounded-md shadow-sm">
           </div>
+          <div class="mb-4">
+            <label for="deskripsijurnal" class="block text-sm font-medium text-gray-700 mb-1">Deskripsi Jurnal</label>
+            <textarea v-model="deskripsijurnal" id="deskripsijurnal" class="form-textarea w-full rounded-md shadow-sm"></textarea>
+          </div>
+          <button type="submit" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded">Simpan</button>
+        </form>
+
+        <!-- Tabel Jurnal -->
+        <div class="-mx-4 overflow-x-auto">
+          <table class="min-w-full bg-white rounded shadow overflow-hidden">
+            <thead class="bg-gray-50">
+              <tr>
+                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">ID</th>
+                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Judul</th>
+                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Tanggal</th>
+                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Deskripsi</th>
+                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Aksi</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr v-for="jurnal in jurnals" :key="jurnal.id" class="bg-white">
+                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">{{ jurnal.id }}</td>
+                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">{{ jurnal.juduljurnal }}</td>
+                <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">{{ jurnal.tanggaljurnal }}</td>
+                <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">{{ jurnal.deskripsijurnal }}</td>
+                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium">
+                  <button @click="editJurnal(jurnal)" class="text-yellow-600 hover:text-yellow-900">Edit</button>
+                  <button @click="deleteJurnal(jurnal.id)" class="text-red-600 hover:text-red-900 ml-2">Hapus</button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
-
-      <div class="py-2 lg:py-4 px-4 lg:px-64">
-        <!-- Date Dropdown -->
-        <div class="mt-4 text-center flex flex-col lg:flex-row justify-between">
-          <label for="date-select" class="text-[#1D5D9B] text-lg"
-            >Tampilkan Berdasarkan
-          </label>
-          <select
-            id="date-select"
-            class="bg-white border-2 border-[#7DACF3] text-[#1D5D9B] rounded-lg px-4 py-2 focus:outline-none mt-2 lg:mt-0"
-          >
-            <option value="tanggal">Tanggal</option>
-            <!-- Add other options here -->
-          </select>
-        </div>
-      </div>
-
-      <!-- Journal Entries Display (Add your content here) -->
-
-      <!-- Add Journal Button -->
-      <div class="flex justify-end w-full">
-          <button
-            class="bg-blue-500 text-white rounded-full px-4 py-2 shadow-lg hover:bg-blue-600 focus:outline-none"
-          >
-            + Add Journal
-          </button>
-        </div>
     </div>
-  </body>
+  </div>
 </template>
 
 <script>
 export default {
-  name: "Journal_v2",
+  data() {
+    return {
+      jurnals: [],
+      id: null,
+      juduljurnal: '',
+      tanggaljurnal: '',
+      deskripsijurnal: ''
+    };
+  },
+  mounted() {
+    this.fetchJurnals();
+  },
+  methods: {
+    fetchJurnals() {
+      fetch('http://localhost/Healify/master/Journal.php')
+        .then(response => response.json())
+        .then(data => {
+          this.jurnals = data;
+        });
+    },
+    saveJurnal() {
+      const method = this.id ? 'PUT' : 'POST';
+      const url = 'http://localhost/Healify/master/Journal.php';
+      const body = {
+        id: this.id,
+        juduljurnal: this.juduljurnal,
+        tanggaljurnal: this.tanggaljurnal,
+        deskripsijurnal: this.deskripsijurnal
+      };
+
+      fetch(url, {
+        method: method,
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(body)
+      }).then(() => {
+        this.fetchJurnals();
+        this.resetForm();
+      });
+    },
+    editJurnal(jurnal) {
+      this.id = jurnal.id;
+      this.juduljurnal = jurnal.juduljurnal;
+      this.tanggaljurnal = jurnal.tanggaljurnal;
+      this.deskripsijurnal = jurnal.deskripsijurnal;
+    },
+    deleteJurnal(id) {
+      fetch('http://localhost/Healify/master/Journal.php', {
+        method: 'DELETE',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ id: id })
+      }).then(() => {
+        this.fetchJurnals();
+      });
+    },
+    resetForm() {
+      this.id = null;
+      this.juduljurnal = '';
+      this.tanggaljurnal = '';
+      this.deskripsijurnal = '';
+    }
+  }
 };
 </script>
+
+<style>
+/* Tambahkan gaya kustom di sini jika diperlukan */
+</style>
