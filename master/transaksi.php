@@ -19,10 +19,6 @@ $id_dokter = $data['doctorId']; // ID dokter yang dipilih dari Vue.js
 $mtdpembayaran = $data['paymentMethod']; // Metode pembayaran dari Vue.js
 $id_kategori = $data['packageId']; // ID paket yang dipilih dari Vue.js
 
-
-
-
-
 $sql = "INSERT INTO dttransaksi (id_user, id_dokter, mtdpembayaran, id_kategori) 
         VALUES ('$id_user', '$id_dokter', '$mtdpembayaran', '$id_kategori')";
 
