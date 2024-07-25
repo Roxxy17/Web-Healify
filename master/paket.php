@@ -1,7 +1,6 @@
 <?php
 include_once 'config.php';
 
-
 $sql = "SELECT id_kategori, metode, deskripsi, durasi, sesi, harga FROM dtkategori";
 $result = $conn->query($sql);
 

@@ -1,4 +1,5 @@
 <?php
+session_start();
 require_once('config.php');
 
 header("Content-Type: application/json");
@@ -42,19 +43,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         // Verifikasi password
         if (password_verify($password, $user['password'])) {
             // Start session
-            session_start();
             $_SESSION['user'] = array(
                 'id_user' => $user['id_user'],
                 'nama_user' => $user['nama_user'],
                 'email' => $user['email']
             );
-
-            // Generate token sederhana
-            $token = generateToken($user['id_user']);
-
+            
             $response['status'] = 'success';
             $response['message'] = 'Login berhasil';
-            $response['token'] = $token;
             $response['user'] = $_SESSION['user'];
 
             // Menyimpan data ke localStorage
@@ -79,10 +75,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
 
 echo json_encode($response);
-
-// Fungsi untuk menghasilkan token sederhana
-function generateToken($userId)
-{
-    return base64_encode($userId . ':' . uniqid());
-}
 ?>

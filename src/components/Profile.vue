@@ -13,7 +13,7 @@
                 alt="Profile Picture"
                 class="w-36 h-36 rounded-full mb-2"
               />
-              <p class="text-center">Ahyi Fauziaturohmah</p>
+              <p class="text-center">KALILA ATHA ACHMAD</p>
             </div>
             <router-link
               to="/Setting"
@@ -42,13 +42,6 @@
               data-toggle="list"
               @click="hideMessage"
               >History Transaction</router-link
-            >
-            <router-link
-              to="/Login"
-              class="py-2 px-4 border-b border-gray-200 block font-semibold cursor-pointer hover:bg-gray-200"
-              data-toggle="list"
-              @click="logout"
-              >Log Out</router-link
             >
           </div>
         </div>

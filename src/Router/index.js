@@ -14,7 +14,6 @@ import Faq from "../components/Child_profile/Faq.vue";
 import Counselling_v2 from "../components/Home_Pages/Counselling_v2.vue";
 import Counselling_v3 from "../components/Home_Pages/Counselling_v3.vue";
 import Journal_v2 from "../components/Home_Pages/Journal_v2.vue";
-import Journal_v3 from "../components/Home_Pages/Journal_v3.vue";
 import Test from "../components/Test/Test.vue";
 import Hasilbaik from "../components/Test/Hasilbaik.vue";
 import Hasiljelek from "../components/Test/Hasiljelek.vue";
@@ -76,11 +75,6 @@ const router = createRouter({
     name: "Journal_v2",
     path: "/Journal_v2",
     component: Journal_v2,
-  },
-  {
-    name: "Journal_v3",
-    path: "/Journal_v3",
-    component: Journal_v3,
   },
   {
     name: "About_us",

@@ -154,8 +154,8 @@
             </div>
 
             <div class="flex-grow">
-              <h2 class="text-lg font-semibold">{{ currentSong.title }}</h2>
-              <p class="text-sm text-gray-600">{{ currentSong.artist }}</p>
+              <h2 class="text-lg font-semibold">Night Owl</h2>
+              <p class="text-sm text-gray-600">Moondate</p>
             </div>
             <button class="text-red-500">
               <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
@@ -178,8 +178,8 @@
               />
             </div>
             <div class="flex-grow">
-              <h2 class="text-lg font-semibold">{{ currentSong.title }}</h2>
-              <p class="text-sm text-gray-600">{{ currentSong.artist }}</p>
+              <h2 class="text-lg font-semibold">Sand Wind</h2>
+              <p class="text-sm text-gray-600">Moondate</p>
             </div>
             <button class="text-gray-400">
               <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
@@ -202,8 +202,8 @@
               />
             </div>
             <div class="flex-grow">
-              <h2 class="text-lg font-semibold">{{ currentSong.title }}</h2>
-              <p class="text-sm text-gray-600">{{ currentSong.artist }}</p>
+              <h2 class="text-lg font-semibold">Cold Forest</h2>
+              <p class="text-sm text-gray-600">Moondate</p>
             </div>
             <button class="text-gray-400">
               <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
@@ -226,8 +226,8 @@
               />
             </div>
             <div class="flex-grow">
-              <h2 class="text-lg font-semibold">{{ currentSong.title }}</h2>
-              <p class="text-sm text-gray-600">{{ currentSong.artist }}</p>
+              <h2 class="text-lg font-semibold">Trivia</h2>
+              <p class="text-sm text-gray-600">Gunger</p>
             </div>
             <button class="text-gray-400">
               <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
@@ -351,22 +351,22 @@ export default {
       songs: [
         {
           title: "Rainy Day",
-          artist: "Artist 1",
+          artist: "Pixabay",
           src: "https://cdn.pixabay.com/audio/2022/11/11/audio_84306ee149.mp3",
         },
         {
           title: "Haunted Day",
-          artist: "Artist 2",
+          artist: "Helix",
           src: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
         },
         {
           title: "Melachony",
-          artist: "Artist 1",
+          artist: "Helix",
           src: "https://cdn.pixabay.com/audio/2022/11/11/audio_84306ee149.mp3",
         },
         {
           title: "Hype Meditation",
-          artist: "Artist 2",
+          artist: "Moondate",
           src: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
         },
         ],

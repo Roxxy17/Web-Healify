@@ -3,7 +3,7 @@
 $dbHost = 'localhost';
 $dbUser = 'root';
 $dbPass = '';
-$dbName = 'healify';
+$dbName = 'Healify';
 
 // Buat koneksi ke database
 $conn = new mysqli($dbHost, $dbUser, $dbPass, $dbName);

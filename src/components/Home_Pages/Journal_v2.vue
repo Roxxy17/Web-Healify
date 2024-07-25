@@ -1,51 +1,40 @@
 <template>
-  <div class="bg-gray-100 p-4">
+  <div class=" p-4 mb-28">
     <div class="container mx-auto">
-      <div class="bg-white p-4 rounded shadow">
-        <h1 class="text-2xl font-bold mb-4">CRUD Jurnal</h1>
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <h1 class="text-3xl font-bold mb-6 text-center">Catatan Journal Harian Kamu</h1>
+        <p class="text-center mb-6 text-gray-600">Aplikasi ini membantu kamu untuk mencatat segala hal yang kamu alami setiap hari. Simpan dan kelola catatan jurnal harianmu dengan mudah.</p>
 
         <!-- Form Input -->
-        <form @submit.prevent="saveJurnal" class="mb-4">
-          <div class="mb-4">
+        <form @submit.prevent="saveJurnal" class="mb-6 space-y-4">
+          <div>
             <label for="juduljurnal" class="block text-sm font-medium text-gray-700 mb-1">Judul Jurnal</label>
-            <input v-model="juduljurnal" id="juduljurnal" class="form-input w-full rounded-md shadow-sm" type="text">
+            <input v-model="juduljurnal" id="juduljurnal" class="form-input w-full rounded-md shadow-sm" type="text" required>
           </div>
-          <div class="mb-4">
+          <div>
             <label for="tanggaljurnal" class="block text-sm font-medium text-gray-700 mb-1">Tanggal Jurnal</label>
-            <input v-model="tanggaljurnal" id="tanggaljurnal" type="date" class="form-input w-full rounded-md shadow-sm">
+            <input v-model="tanggaljurnal" id="tanggaljurnal" type="date" class="form-input w-full rounded-md shadow-sm" required>
           </div>
-          <div class="mb-4">
+          <div>
             <label for="deskripsijurnal" class="block text-sm font-medium text-gray-700 mb-1">Deskripsi Jurnal</label>
-            <textarea v-model="deskripsijurnal" id="deskripsijurnal" class="form-textarea w-full rounded-md shadow-sm"></textarea>
+            <textarea v-model="deskripsijurnal" id="deskripsijurnal" class="form-textarea w-full rounded-md shadow-sm" rows="3" required></textarea>
           </div>
-          <button type="submit" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded">Simpan</button>
+          <button type="submit" class="w-full bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md shadow-sm">Simpan</button>
         </form>
 
-        <!-- Tabel Jurnal -->
-        <div class="-mx-4 overflow-x-auto">
-          <table class="min-w-full bg-white rounded shadow overflow-hidden">
-            <thead class="bg-gray-50">
-              <tr>
-                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">ID</th>
-                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Judul</th>
-                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Tanggal</th>
-                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Deskripsi</th>
-                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Aksi</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr v-for="jurnal in jurnals" :key="jurnal.id" class="bg-white">
-                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">{{ jurnal.id }}</td>
-                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">{{ jurnal.juduljurnal }}</td>
-                <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">{{ jurnal.tanggaljurnal }}</td>
-                <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">{{ jurnal.deskripsijurnal }}</td>
-                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium">
-                  <button @click="editJurnal(jurnal)" class="text-yellow-600 hover:text-yellow-900">Edit</button>
-                  <button @click="deleteJurnal(jurnal.id)" class="text-red-600 hover:text-red-900 ml-2">Hapus</button>
-                </td>
-              </tr>
-            </tbody>
-          </table>
+        <!-- List Jurnal -->
+        <div class="space-y-4">
+          <div v-for="jurnal in jurnals" :key="jurnal.id" class="bg-white p-4 rounded-lg shadow-md">
+            <div class="flex justify-between items-center mb-2">
+              <h2 class="text-xl font-bold">{{ jurnal.juduljurnal }}</h2>
+              <div>
+                <button @click="editJurnal(jurnal)" class="text-yellow-600 hover:text-yellow-900">Edit</button>
+                <button @click="deleteJurnal(jurnal.id)" class="text-red-600 hover:text-red-900 ml-2">Hapus</button>
+              </div>
+            </div>
+            <p class="text-gray-500 mb-2">{{ jurnal.tanggaljurnal }}</p>
+            <p class="text-gray-700">{{ jurnal.deskripsijurnal }}</p>
+          </div>
         </div>
       </div>
     </div>

@@ -1,6 +1,6 @@
 <?php
 // Allow requests from specific origin (replace with your Vue.js app's origin)
-header("Access-Control-Allow-Origin: http://localhost:5176");
+header("Access-Control-Allow-Origin: http://localhost:5173");
 
 // Allow specific methods (GET, POST, PUT, DELETE)
 header("Access-Control-Allow-Methods: GET, POST, PUT, DELETE");

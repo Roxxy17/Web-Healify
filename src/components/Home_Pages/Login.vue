@@ -70,7 +70,6 @@ export default {
     };
   },
   methods: {
-    
     submit() {
       this.errorMessage = "";
       axios
