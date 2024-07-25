@@ -52,13 +52,11 @@
           </div>
         </div>
       </div>
-
       <div class="flex justify-center items-center mb-12">
         <button @click="scheduleAppointment" class="bg-[#F4D160] text-[#1D5D9B] font-semibold px-32 py-2 rounded-full hover:bg-[#F4C150] hover:shadow-lg transition">
           Jadwalkan
         </button>
       </div>
-
       <div v-if="showMessageBox" class="fixed inset-0 bg-gray-800 bg-opacity-50 flex items-center justify-center z-50">
         <div class="bg-white rounded-lg p-6 shadow-lg">
           <h2 class="text-lg font-semibold text-[#1D5D9B] mb-4">Peringatan</h2>
